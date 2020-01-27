@@ -25,8 +25,7 @@
 				<td></td>
 			</tr>
 			<tr>
-				<td><form:radiobutton path="major" value="APP" label="Ứng dụng phần mềm"/></td>
-				<td><form:radiobutton path="major" value="WEB" label="Thiết kế web"/></td>
+				<td><form:radiobuttons path="major" items="${majors}"/></td>
 			</tr>
 			<tr>
 				<td></td>
