@@ -11,8 +11,8 @@ import poly.bean.Student;
 public class StudentController {
 		@RequestMapping("index")
 		public String index(ModelMap modelMap) {
-			Student student = new Student("Mai Đình Dinh", 8.5, "WEB");
+			Student student = new Student("Mai Đình Dinh", 8.5, "APP");
 			modelMap.addAttribute("student", student);
-			return "student";
+			return "student2";
 		}
 }
