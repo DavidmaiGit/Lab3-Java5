@@ -25,7 +25,8 @@
 				<td></td>
 			</tr>
 			<tr>
-				<td><form:radiobuttons path="major" items="${majors}"/></td>
+				<td></td>
+				<td><form:select path="major" items="${majorss}" itemValue="id" itemLabel="name"/></td>
 			</tr>
 			<tr>
 				<td></td>
